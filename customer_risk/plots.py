@@ -4,7 +4,7 @@ from loguru import logger
 from tqdm import tqdm
 import typer
 
-from customer-risk.config import FIGURES_DIR, PROCESSED_DATA_DIR
+from customer_risk.config import FIGURES_DIR, PROCESSED_DATA_DIR
 
 app = typer.Typer()
 
