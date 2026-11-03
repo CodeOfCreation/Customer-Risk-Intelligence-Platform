@@ -1,0 +1,20 @@
+{
+    "model_name": "Tuned XGBoost",
+    "threshold": 0.3,
+    "risk_bands": {
+        "low": [
+            0.0,
+            0.3
+        ],
+        "medium": [
+            0.3,
+            0.7
+        ],
+        "high": [
+            0.7,
+            1.0
+        ]
+    },
+    "target": "Churn",
+    "positive_class": 1
+}
